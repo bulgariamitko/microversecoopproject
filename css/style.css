@@ -1,5 +1,8 @@
 body {
-	background-image: url("../images/bg.png");
+	 background-image: url("../images/background.png"); 
+	 background-repeat: no-repeat;
+   /*  background-size: 100%; */
+      background-size: cover ;
 }
 
 .company {
@@ -25,11 +28,43 @@ nav {
 	color: rgb(66, 144, 214);
 }
 
-button {
-	/*border-radius: 80px;*/
-	color: white;
-	background-color: rgb(252, 195, 98);
+img {
+	width: 150%;
+	height: 150%;
 }
+
+.img-responsive {
+  max-width: 100%; /* or to whatever you want here */
+  max-height: auto; /* or to whatever you want here */
+}
+
+
+.button {
+    background-color: rgb(252, 195, 98);
+    border: none;
+    color: white;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+}
+
+
+.navbar-custom {
+    color: rgb(67, 150, 179);
+    background-color: white;
+}
+
+.buttonRounded {border-radius: 30px;}
+
+/*
+input[type=button] {
+
+	border-radius: 40px;
+}
+*/
 
 .image {
 	/*background-image: url("../images/background.png");*/
