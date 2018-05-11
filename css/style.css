@@ -1,7 +1,6 @@
 body {
 	 background-image: url("../images/background.png"); 
 	 background-repeat: no-repeat;
-   /*  background-size: 100%; */
       background-size: cover ;
 }
 
@@ -51,21 +50,37 @@ img {
     margin: 4px 2px;
 }
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 .navbar-custom {
     color: rgb(67, 150, 179);
     background-color: white;
 }
 
-.buttonRounded {border-radius: 30px;}
-
-/*
-input[type=button] {
-
-	border-radius: 40px;
-}
-*/
-
-.image {
-	/*background-image: url("../images/background.png");*/
+.buttonRounded {
+	border-radius: 30px;
 }
