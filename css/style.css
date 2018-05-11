@@ -1,0 +1,36 @@
+body {
+	background-image: url("../images/bg.png");
+}
+
+.company {
+	color: rgb(70, 124, 191) !important;
+}
+
+nav {
+	margin-top: 35px;
+}
+
+.navbar-nav {
+	color: rgb(67, 150, 179) !important;
+}
+
+.title {
+	margin-top: 145px;
+	color: rgb(73, 105, 168);
+	font-size: 50px;
+}
+
+.desc {
+	line-height: 32px;
+	color: rgb(66, 144, 214);
+}
+
+button {
+	/*border-radius: 80px;*/
+	color: white;
+	background-color: rgb(252, 195, 98);
+}
+
+.image {
+	/*background-image: url("../images/background.png");*/
+}
