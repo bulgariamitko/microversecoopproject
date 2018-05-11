@@ -1,7 +1,7 @@
 body {
-	 background-image: url("../images/background.png"); 
-	 background-repeat: no-repeat;
-      background-size: cover ;
+	background-image: url("../images/background.png"); 
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .company {
@@ -19,7 +19,7 @@ nav {
 .title {
 	margin-top: 145px;
 	color: rgb(73, 105, 168);
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .desc {
@@ -33,8 +33,8 @@ img {
 }
 
 .img-responsive {
-  max-width: 100%; /* or to whatever you want here */
-  max-height: auto; /* or to whatever you want here */
+	max-width: 100%; /* or to whatever you want here */
+	max-height: auto; /* or to whatever you want here */
 }
 
 
@@ -51,30 +51,29 @@ img {
 }
 
 .button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
 }
 
 .button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+	padding-right: 25px;
 }
 
 .button:hover span:after {
-  opacity: 1;
-  right: 0;
+	opacity: 1;
+	right: 0;
 }
-
 
 .navbar-custom {
     color: rgb(67, 150, 179);
